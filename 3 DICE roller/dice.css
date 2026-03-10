@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+#input{
+    text-align: center;
+    font-size: 1.2rem;
+}
+button{
+    padding: 6px 6px;
+    background-color: rgb(77, 110, 245);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+button:hover{
+    background-color: rgba(77, 111, 245, 0.872);
+}
+button:active{
+    background-color: rgba(77, 111, 245, 0.628);;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
